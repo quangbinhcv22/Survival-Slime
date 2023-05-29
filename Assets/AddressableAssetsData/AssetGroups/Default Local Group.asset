@@ -21,6 +21,206 @@ MonoBehaviour:
     m_Address: slime_cabbage
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: 15d92e7004380f94da0ccd6aa2dd4dc2
+    m_Address: xp_small
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2dd2f5aa9771d1b4eb8dc4bd3bcd87c7
+    m_Address: Assets/CheckArt/Asset 13.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ab4144597c19f5c458d58973c4e46973
+    m_Address: Assets/CheckArt/Asset 14.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1e8081636e677e64eb6539f171570863
+    m_Address: Assets/CheckArt/Asset 15.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a560f40b2696c8943ab26782bba74d7d
+    m_Address: Assets/CheckArt/Asset 16.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8fe1e3afaf262634ca03b248290aa71a
+    m_Address: Assets/CheckArt/Asset 17.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d68c52c8501edde46a68ed880d349216
+    m_Address: Assets/CheckArt/Asset 18.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 24cb065f022439449994c23bc8cf1ade
+    m_Address: text_damage_magic_crit
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0d9cc262e5835b042b58ea616d1fabeb
+    m_Address: hp_bar_enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 35c2d731aa66d5e468fb02a234361069
+    m_Address: Asset 26
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 33eba5c6682d2cc4a8bb305f9bf219a1
+    m_Address: Assets/CheckArt/Asset 19.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6ae03d2b4e2529d48985d56e224f4b19
+    m_Address: bullet_rocket
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 549c9f3c768e8de42bd3060323d1bf3f
+    m_Address: Assets/_Resources/Prefabs/vfx_rocket.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bdf6eb87b271970428971ef0f9ce7381
+    m_Address: Assets/_Resources/Prefabs/bullet_kunai.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 31c3d823523946843b328f031bca5ee7
+    m_Address: Assets/_Resources/Prefabs/bullet_boomerang.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ef3227548b7203b4dbb952ce769efe9f
+    m_Address: text_damage_true_crit
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d26b460f5343cc843945677c898c7895
+    m_Address: sheet_upgrade
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2c8287cfdb4b57d49b6a2c2f2399716c
+    m_Address: Assets/_Resources/UI/sheet_shop.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f2d4f5a7d68ef2b45a57a1851d997fa8
+    m_Address: sheet_explore
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 634a01475e18e79449d7930165d7aa63
+    m_Address: Assets/_Resources/UI/sheet_collection.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0861278d26c13d845862ee85e6a2444a
+    m_Address: sheet_battle_hall
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 27f4e981c3d9e004381043ed1abeeb19
+    m_Address: Assets/_Resources/UI/Collection/sheet_enemy.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4ad0c3a21f5a1574d8006953ad2c2b8f
+    m_Address: Assets/_Resources/UI/Collection/sheet_pet.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bc495b18d8b859f439a86fcb3da4290c
+    m_Address: Assets/_Resources/UI/Collection/sheet_slime.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8fecb7be75f603547b39cf1efad98637
+    m_Address: Assets/_Resources/UI/Collection/sheet_weapon.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 595bed50243ebaf4c86b2e0f32cc0b78
+    m_Address: bullet_magic_satellite
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 85116671eef53f94b864644caac222d2
+    m_Address: text_damage_physic
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b10775d7b572d8147b09ee96c746960a
+    m_Address: text_damage_magic
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9b8c23f7e07263641bc31657b42f24ab
+    m_Address: text_damage_physic_crit
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8094ca8096a129c49bbed3f302f7e342
+    m_Address: text_damage_true
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eeaf04de125766548ad1bcce1ff5bb03
+    m_Address: bullet_shoot_around
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c1013516ab4a11a44980e19e5f54ea8c
+    m_Address: Assets/_Resources/Bullets/lava_pit.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b92ceb01abb38bd479a33fbc586ee4c3
+    m_Address: Assets/_Resources/Bullets/bullet_shuriken.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 43fbcaf6a4507664384f4aa760d901f1
+    m_Address: Assets/_Resources/UI/Upgrade/Active/sheet_upgrade_active.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8d4fbba06fa35034ab9eb8809f33a0bb
+    m_Address: sheet_upgrade_stat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4de22afd88275764286d61736f849247
+    m_Address: Assets/_Resources/UI/Upgrade/Passive/sheet_upgrade_passive.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0bc98b75ea66bd24eae913d1ce59c2f0
+    m_Address: sheet_achievement
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c24ee8c66a1d82c46882861c988083a6
+    m_Address: Assets/_Resources/UI/Explore/Achievement/sheet_achievement_present.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f08b6ffa8ba8e05428f3c8072cf0d51f
+    m_Address: Assets/_Resources/UI/Explore/Endless/sheet_endless_present.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fee53db8580d3a94490202d4c8251d0e
+    m_Address: sheet_endless
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c48cde9e65acd714abedb61b9f9dcf53
+    m_Address: Assets/_Resources/UI/Battle/Campaign/sheet_campaign.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4c1a30ca9861a3f4d88078216b47616e
+    m_Address: Assets/_Resources/Prefabs/xp_blue.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f23f4a96d395b6c49b7147f7f051a95b
+    m_Address: Assets/_Resources/Prefabs/xp_orange.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 86e1b6e104e7f8e49b6d653e86ef5304
+    m_Address: ability_magic_satellite
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 65a31161a074e5d429752abd32bedd8f
+    m_Address: ability_kunai
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ebb08b87e4c643c49811b089d373b8f7
+    m_Address: ability_boomerang
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 98f2874902837c8418e5ac6eb688dd29
+    m_Address: ability_star
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: af58d49a6bc672942a4d75c62b6c667d
+    m_Address: ability_magic_boundary
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 51771dc941e9ffa4480e9d410406b0bd
+    m_Address: ability_shuriken
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b325a2f79acf6a6498e0625c28d595a1
+    m_Address: currency_energy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 6b85e71e0a3dc2c4e9bf60cce15e6acf, type: 2}
   m_SchemaSet:

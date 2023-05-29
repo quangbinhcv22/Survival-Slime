@@ -1,53 +1,49 @@
 using System;
+using Gameplay.Progress;
+using Plugins.QB_UI.Core;
 using UnityEngine;
 
 namespace Gameplay
 {
+    [DefaultExecutionOrder(int.MinValue)]
     public class BattleM : MonoBehaviour
     {
         public static BattleM Main;
-        
+
         [Space] public int time = 0;
 
 
-        [SerializeField] private int level;
+        public LevelProgress lvProgress;
 
-        public int Level
+        
+        public int Killed;
+        public Action onStatisticKilled;
+
+        public void StatisticKilled()
         {
-            get => level;
-            set
-            {
-                level = value;
-                LevelChanged?.Invoke(value);
-            }
-        }
-
-        public Action<int> LevelChanged;
-
-
-        public int xpRequired = 1000;
-        public int xpCurrent = 0;
-
-        public void OnXp()
-        {
-        }
-
-
-        public Action<int, int> XpChanged;
-        public Action<int> TimeChanged;
-
-        private void SetLevel(int level)
-        {
+            Killed++;
+            onStatisticKilled?.Invoke();
         }
 
         public void StartBattle()
         {
-            SetLevel(1);
+            lvProgress.Reset();
         }
 
         private void OnEnable()
         {
             Main = this;
+            StartBattle();
+            
+            lvProgress.LevelChanged += LevelChanged;
+        }
+
+        private void LevelChanged()
+        {
+            if (lvProgress.Level > 1)
+            {
+                PanelContainer.Main.Push<Popup_SelectAbility>();
+            }
         }
     }
 }

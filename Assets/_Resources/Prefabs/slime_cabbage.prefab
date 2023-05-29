@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5271093097378839491}
   - component: {fileID: 5271093097378839489}
-  - component: {fileID: 5271093097378839502}
   - component: {fileID: 7449681072040406148}
   m_Layer: 7
   m_Name: slime_cabbage
@@ -62,27 +61,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.5}
   m_EdgeRadius: 0
---- !u!50 &5271093097378839502
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5271093097378839503}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!114 &7449681072040406148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95,6 +73,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33ae01e100c4088aa09c4420417cfd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 1
+  keepDistance: 0.5
+  loot:
+    m_AssetGUID: 15d92e7004380f94da0ccd6aa2dd4dc2
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  hp: 100
 --- !u!1 &5271093098711578627
 GameObject:
   m_ObjectHideFlags: 0
@@ -105,8 +91,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5271093098711578626}
   - component: {fileID: 5271093098711578628}
-  - component: {fileID: 5271093098711578629}
   - component: {fileID: 556703259822332612}
+  - component: {fileID: 5271093098711578629}
   m_Layer: 0
   m_Name: model
   m_TagString: Untagged
@@ -122,7 +108,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5271093098711578627}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.012, y: 0.278, z: 0}
+  m_LocalPosition: {x: -0.025, y: 0.179, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -170,8 +156,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c59b2fabac531894d9a23ce652d776b1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 22f63463bd253ef44a1ce6e45e4a0fa1, type: 3}
+  m_Color: {r: 1, g: 0.78039217, b: 0.78039217, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -181,6 +167,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &556703259822332612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5271093098711578627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e81bac647194bbb9727b78a2708f64b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &5271093098711578629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,18 +194,6 @@ MonoBehaviour:
   target: 1.15
   duration: 0.5
   ease: 1
---- !u!114 &556703259822332612
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5271093098711578627}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e81bac647194bbb9727b78a2708f64b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &5271093098843360547
 GameObject:
   m_ObjectHideFlags: 0
