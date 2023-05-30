@@ -1,9 +1,8 @@
 using System.Collections.Generic;
 using DataCore;
-using EnhancedUI.EnhancedScroller;
 using Plugins.QB_UI.Core;
-using UIFlow._ViewElement;
 using UnityEngine;
+using ProgressBar = Ui.ProgressBar;
 
 namespace UIFlow.Shop
 {
@@ -12,32 +11,48 @@ namespace UIFlow.Shop
         public List<Gift> freePack;
         public List<Gift> vipPack;
         public List<Gift> premiumPack;
-    }
 
-    public class BattlePass_Pack : MonoBehaviour, IEnhancedScrollerDelegate
-    {
-        [Space, SerializeField] private EnhancedScroller scroller;
-        [SerializeField] private GiftCell cellPrefab;
-        [SerializeField] private float cellSize = 200f;
+        [Space] [SerializeField] private BattlePass_Config config;
 
-        [Space, SerializeField] List<Gift> data = new();
+        [Space] [SerializeField] private Transform levelGroup;
+        [SerializeField] private Transform xpGroup;
 
+        [Space] [SerializeField] private BattlePass_CellLevel[] levelCells;
+        [SerializeField] private ProgressBar[] xpCells;
 
-        public void SetData(List<Gift> pack)
+        private void Awake()
         {
-            data = pack;
-            scroller.Delegate = this;
+            levelCells = levelGroup.GetComponentsInChildren<BattlePass_CellLevel>();
+            xpCells = xpGroup.GetComponentsInChildren<ProgressBar>();
         }
 
-        public int GetNumberOfCells(EnhancedScroller scroller) => data.Count;
-
-        public float GetCellViewSize(EnhancedScroller scroller, int dataIndex) => cellSize;
-
-        public EnhancedScrollerCellView GetCellView(EnhancedScroller scroller, int dataIndex, int cellIndex)
+        protected override void OnValidate()
         {
-            var cell = (GiftCell)scroller.GetCellView(cellPrefab);
+            base.OnValidate();
 
-            return cell;
+            levelCells = levelGroup.GetComponentsInChildren<BattlePass_CellLevel>();
+            xpCells = xpGroup.GetComponentsInChildren<ProgressBar>();
+
+            var currentLevel = config.progress.level;
+
+            for (int i = 0; i < levelCells.Length; i++)
+            {
+                var cellLv = i + 1;
+                levelCells[i].SetLevel(cellLv);
+                levelCells[i].SetUnlock(currentLevel >= cellLv);
+            }
+
+            for (int i = 0; i < xpCells.Length; i++)
+            {
+                var cellLv = i + 1;
+
+                var fill = 0f;
+                if (currentLevel > cellLv) fill = 1;
+                else if (currentLevel < cellLv) fill = 0;
+                else fill = config.progress.XpPercent;
+                
+                xpCells[i].SetFillImmediately(fill);
+            }
         }
     }
 }

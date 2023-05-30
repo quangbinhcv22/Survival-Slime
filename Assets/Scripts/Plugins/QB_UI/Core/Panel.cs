@@ -47,7 +47,7 @@ namespace Plugins.QB_UI.Core
         {
         }
 
-        private void OnValidate()
+        protected virtual void OnValidate()
         {
 #if UNITY_EDITOR
             name = KeyOf(GetType());

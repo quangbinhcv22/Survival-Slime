@@ -18,6 +18,11 @@ namespace Ui
             SetFill(value);
         }
 
+        public virtual void SetFillImmediately(float value)
+        {
+            fill.fillAmount = value;
+        }
+
         public void SetFill(float value)
         {
             _lastTween?.Kill();

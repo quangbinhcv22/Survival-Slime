@@ -22,31 +22,31 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 15d92e7004380f94da0ccd6aa2dd4dc2
-    m_Address: xp_small
+    m_Address: xp_green
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 2dd2f5aa9771d1b4eb8dc4bd3bcd87c7
-    m_Address: Assets/CheckArt/Asset 13.prefab
+    m_Address: Asset 13
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: ab4144597c19f5c458d58973c4e46973
-    m_Address: Assets/CheckArt/Asset 14.prefab
+    m_Address: Asset 14
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 1e8081636e677e64eb6539f171570863
-    m_Address: Assets/CheckArt/Asset 15.prefab
+    m_Address: Asset 15
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: a560f40b2696c8943ab26782bba74d7d
-    m_Address: Assets/CheckArt/Asset 16.prefab
+    m_Address: Asset 16
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 8fe1e3afaf262634ca03b248290aa71a
-    m_Address: Assets/CheckArt/Asset 17.prefab
+    m_Address: Asset 17
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: d68c52c8501edde46a68ed880d349216
-    m_Address: Assets/CheckArt/Asset 18.prefab
+    m_Address: Asset 18
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 24cb065f022439449994c23bc8cf1ade
@@ -62,7 +62,7 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 33eba5c6682d2cc4a8bb305f9bf219a1
-    m_Address: Assets/CheckArt/Asset 19.prefab
+    m_Address: Asset 19
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 6ae03d2b4e2529d48985d56e224f4b19
@@ -70,15 +70,15 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 549c9f3c768e8de42bd3060323d1bf3f
-    m_Address: Assets/_Resources/Prefabs/vfx_rocket.prefab
+    m_Address: vfx_rocket
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: bdf6eb87b271970428971ef0f9ce7381
-    m_Address: Assets/_Resources/Prefabs/bullet_kunai.prefab
+    m_Address: bullet_kunai
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 31c3d823523946843b328f031bca5ee7
-    m_Address: Assets/_Resources/Prefabs/bullet_boomerang.prefab
+    m_Address: bullet_boomerang
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: ef3227548b7203b4dbb952ce769efe9f
@@ -90,7 +90,7 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 2c8287cfdb4b57d49b6a2c2f2399716c
-    m_Address: Assets/_Resources/UI/sheet_shop.prefab
+    m_Address: sheet_shop
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: f2d4f5a7d68ef2b45a57a1851d997fa8
@@ -98,7 +98,7 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 634a01475e18e79449d7930165d7aa63
-    m_Address: Assets/_Resources/UI/sheet_collection.prefab
+    m_Address: sheet_collection
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 0861278d26c13d845862ee85e6a2444a
@@ -106,19 +106,19 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 27f4e981c3d9e004381043ed1abeeb19
-    m_Address: Assets/_Resources/UI/Collection/sheet_enemy.prefab
+    m_Address: sheet_enemy
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 4ad0c3a21f5a1574d8006953ad2c2b8f
-    m_Address: Assets/_Resources/UI/Collection/sheet_pet.prefab
+    m_Address: sheet_pet_codex
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: bc495b18d8b859f439a86fcb3da4290c
-    m_Address: Assets/_Resources/UI/Collection/sheet_slime.prefab
+    m_Address: sheet_hero_codex
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 8fecb7be75f603547b39cf1efad98637
-    m_Address: Assets/_Resources/UI/Collection/sheet_weapon.prefab
+    m_Address: sheet_weapon
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 595bed50243ebaf4c86b2e0f32cc0b78
@@ -142,19 +142,19 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: eeaf04de125766548ad1bcce1ff5bb03
-    m_Address: bullet_shoot_around
+    m_Address: bullet_star
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: c1013516ab4a11a44980e19e5f54ea8c
-    m_Address: Assets/_Resources/Bullets/lava_pit.prefab
+    m_Address: lava_pit
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: b92ceb01abb38bd479a33fbc586ee4c3
-    m_Address: Assets/_Resources/Bullets/bullet_shuriken.prefab
+    m_Address: bullet_shuriken
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 43fbcaf6a4507664384f4aa760d901f1
-    m_Address: Assets/_Resources/UI/Upgrade/Active/sheet_upgrade_active.prefab
+    m_Address: sheet_upgrade_active
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 8d4fbba06fa35034ab9eb8809f33a0bb
@@ -162,7 +162,7 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 4de22afd88275764286d61736f849247
-    m_Address: Assets/_Resources/UI/Upgrade/Passive/sheet_upgrade_passive.prefab
+    m_Address: sheet_upgrade_passive
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 0bc98b75ea66bd24eae913d1ce59c2f0
@@ -170,11 +170,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: c24ee8c66a1d82c46882861c988083a6
-    m_Address: Assets/_Resources/UI/Explore/Achievement/sheet_achievement_present.prefab
+    m_Address: sheet_achievement_present
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: f08b6ffa8ba8e05428f3c8072cf0d51f
-    m_Address: Assets/_Resources/UI/Explore/Endless/sheet_endless_present.prefab
+    m_Address: sheet_endless_present
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: fee53db8580d3a94490202d4c8251d0e
@@ -182,15 +182,15 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: c48cde9e65acd714abedb61b9f9dcf53
-    m_Address: Assets/_Resources/UI/Battle/Campaign/sheet_campaign.prefab
+    m_Address: sheet_campaign
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 4c1a30ca9861a3f4d88078216b47616e
-    m_Address: Assets/_Resources/Prefabs/xp_blue.prefab
+    m_Address: xp_blue
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: f23f4a96d395b6c49b7147f7f051a95b
-    m_Address: Assets/_Resources/Prefabs/xp_orange.prefab
+    m_Address: xp_orange
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 86e1b6e104e7f8e49b6d653e86ef5304
@@ -219,6 +219,182 @@ MonoBehaviour:
     m_SerializedLabels: []
   - m_GUID: b325a2f79acf6a6498e0625c28d595a1
     m_Address: currency_energy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 297450f59c3c7f8419d4029854333f6e
+    m_Address: screen_battle_pass
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d4ee824061437754f86a5b0bd3487ae1
+    m_Address: screen_main_menu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: afb1ad2fad740ab4f9589367a3a83dcd
+    m_Address: ui_hero_robot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d696c20e648b3ef49affc7b84b3c1ea2
+    m_Address: ui_hero_rock
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 88b8359a76689464186164f06cca2051
+    m_Address: ui_hero_duck
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f64f97f1dbf23c84599168713b4a6cc1
+    m_Address: ui_hero_jellyfish
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 19fbc243fa77e484c9449acccb5150a0
+    m_Address: sprite_hero_duck
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 300d6c8370ef68e47bfc19738e4c1093
+    m_Address: sprite_hero_fire
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2c0cf960647a5c140bc40bb2d6919434
+    m_Address: sprite_hero_jellyfish
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e4275a2c136a1504d8f87089dc2788f7
+    m_Address: sprite_hero_robot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c4d35611a66e296428094ae6c8cb81ec
+    m_Address: sprite_hero_rock
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 44ba9194178355a4fb3f4c5b20a14b52
+    m_Address: sprite_hero_tree
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f883f738dfc90324c8905f9a749fd6f3
+    m_Address: sheet_hero_collection
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 165c73c9d1b9904449f6cc883a9ec33c
+    m_Address: ui_hero_fire
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 88e5ed4d626ca474aa75d1c85f10ddc9
+    m_Address: ui_hero_tree
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 333b670588d9fe842aaf242d10ebea5e
+    m_Address: sheet_pet_collection
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9a6be4fb4fa918544aebf9f58425ae00
+    m_Address: ui_pet_rock
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f0ebc69a8d184ce4da607556b0656164
+    m_Address: ui_pet_tree
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 43f1ca862e68f0347a4c8da69569f68e
+    m_Address: ui_pet_robot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cdd193fe0bc717849b46bcfca1b19ab2
+    m_Address: ui_pet_carrot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1a05ecdececd5494dabe5406c488ae51
+    m_Address: ui_pet_whale
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 67de3935290659643beea5f17cba0354
+    m_Address: ui_pet_star
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 05afe3f3fc545394588aebd3ed8b340c
+    m_Address: ui_pet_jellyfish
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1cf10e3e953528945b5608f69624eb4a
+    m_Address: ui_pet_ghost
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 78a5d5415caaa7a44a51e29fc1dda63b
+    m_Address: ui_pet_frog_duck
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e555c4806f143b947b514c11a80f5faf
+    m_Address: ui_pet_fire
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 610bc4e11c12b2e4d9b48363e62fd8cf
+    m_Address: sprite_pet_robot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 473a8c0281d148043b12a3cc3367ded0
+    m_Address: sprite_pet_rock
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 08dd3d902839cb145af127259c9ed587
+    m_Address: sprite_pet_tree
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9ae6514e4eb2e8e40bec6507e9639f35
+    m_Address: sprite_pet_carrot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d61916bd5b7268143b1fb0fa13c305f2
+    m_Address: sprite_pet_fire
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aa78fe0a1ab12194cb2eca096aa6ee6e
+    m_Address: sprite_pet_frog_duck
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6e0bf3661f8f50f489179ead1983340e
+    m_Address: sprite_pet_ghost
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ed446e2a38f849247923b0c3e1101b68
+    m_Address: sprite_pet_jellyfish
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fe6fc3e67f761394da89d21fd537e285
+    m_Address: sprite_pet_star
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 09bc78146422f344788066d0130716f2
+    m_Address: sprite_pet_whale
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f747cbfd6078a6a4a9c806a07850d222
+    m_Address: sprite_enemy_sun
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 967289dd2a2244944a9035462b7a6812
+    m_Address: sprite_enemy_poison
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fce1efccc995e8a40bb520bf5b5ab051
+    m_Address: sprite_enemy_carrot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 777652621fd340d42ae182b1ffb4b68a
+    m_Address: sprite_enemy_angel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4386c78fc2703474cb467f641b17417a
+    m_Address: sprite_enemy_witch
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c12d8d764006a79428828bbdd85f7dd4
+    m_Address: sprite_enemy_stone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 23e4b8a96c981a446b779418922271a3
+    m_Address: sprite_enemy_bomb
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5c99b2e442bff0a41ae56f6be586af93
+    m_Address: sprite_slime_dirt
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0

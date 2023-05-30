@@ -7,7 +7,7 @@ namespace Gameplay.Abilities
     [Serializable]
     public class _AbilityStat
     {
-        public const float PlayerDamage = 100;
+        public const float PlayerDamage = 65;
 
         
         [Header("Time")] [SerializeField] private float duration = 3f;

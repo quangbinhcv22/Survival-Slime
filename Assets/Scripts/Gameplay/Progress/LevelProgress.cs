@@ -29,8 +29,6 @@ namespace Gameplay.Progress
 
         public void AddXp(int xp)
         {
-            Debug.Log(xp);
-
             xpCurrent += xp;
             XpChanged?.Invoke();
 

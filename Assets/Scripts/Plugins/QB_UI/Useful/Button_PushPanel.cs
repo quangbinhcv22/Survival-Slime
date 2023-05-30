@@ -9,14 +9,12 @@ namespace Plugins.QB_UI.Useful
     public class Button_PushPanel : MonoBehaviour
     {
         [SerializeField] private AssetReference panelRef;
-        private PanelContainer _container;
 
         private void Awake() => GetComponent<Button>().onClick.AddListener(OnClick);
 
         private void OnClick()
         {
-            _container ??= PanelContainer.Of(gameObject);
-            _container.Push(panelRef);
+            PanelContainer.Main.Push(panelRef);
         }
     }
 }

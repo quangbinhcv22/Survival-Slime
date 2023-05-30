@@ -9,11 +9,15 @@ namespace UIFlow._Reusable
     public class AddressableImage : MonoBehaviour
     {
         private Image _image;
+        private NativeSize _nativeSize;
 
         public async void SetKey(string key)
         {
             _image ??= GetComponent<Image>();
+            _nativeSize ??= GetComponent<NativeSize>();
+
             _image.sprite = await Addressables.LoadAssetAsync<Sprite>(key);
+            if (_nativeSize) _nativeSize.Refresh();
         }
     }
 }

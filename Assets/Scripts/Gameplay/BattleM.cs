@@ -42,7 +42,7 @@ namespace Gameplay
         {
             if (lvProgress.Level > 1)
             {
-                PanelContainer.Main.Push<Popup_SelectAbility>();
+                // PanelContainer.Main.Push<Popup_SelectAbility>();
             }
         }
     }

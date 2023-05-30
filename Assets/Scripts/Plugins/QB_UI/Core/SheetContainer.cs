@@ -25,6 +25,13 @@ namespace Plugins.QB_UI.Core
             {
                 tgDefault.isOn = true;
             }
+            else
+            {
+                foreach (var config in configs)
+                {
+                    if(config.toggle.isOn) OnChanged(config.toggle, config.toggle.isOn);
+                }
+            }
         }
 
         private void OnChanged(Toggle toggle, bool isOn)
